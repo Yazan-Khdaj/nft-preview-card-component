@@ -1,0 +1,65 @@
+:root{
+    --cl-primary: hsl(215, 32%, 27%);
+    --cl-body-bg: hsl(217, 54%, 11%);
+    --cl-card-bg: hsl(216, 50%, 16%);
+    --cl-light: hsl(0, 0%, 100%);
+
+    --ff-main: "Outfit", sans-serif;
+    --fs-main: 18px;
+    --fw-main: 300;
+    --fw-bold: 400;
+    --fw-bolder: 600;
+}
+
+body{
+    height:calc(100vh - 1px);
+    background-color: var(--cl-body-bg);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    font-family: var(--ff-main);
+    font-size: var(--fs-main);
+    font-weight: var(--fw-main);
+}
+
+img{
+    max-width:100%;
+}
+
+.container{
+    width:350px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
