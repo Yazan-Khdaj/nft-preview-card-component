@@ -29,8 +29,17 @@ img{
 }
 
 .container{
-    width:350px
+    width:350px;
+
 }
+
+.card{
+    background-color: var(--cl-card-bg);
+    padding:1.5rem;
+    border-radius: 1rem;
+}
+
+
 
 
 
